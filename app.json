@@ -8,9 +8,18 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "ios": {
+        "backgroundColor": "#FFFFFF",
+        "image": "./assets/splash.png",
+        "resizeMode": "cover",
+        "enableFullScreenImage_legacy": true
+      },
+      "android": {
+        "backgroundColor": "#FFFFFF",
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "imageWidth": 200
+      }
     },
     "ios": {
       "supportsTablet": true
