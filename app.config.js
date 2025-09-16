@@ -19,27 +19,17 @@ module.exports = {
     '@config-plugins/react-native-blob-util',
     '@config-plugins/react-native-pdf',
     [
-      'expo-font',
-      {
-        fonts: [
-          'assets/fonts/NeueHaasDisplay-Roman.ttf',
-          'assets/fonts/NeueHaasDisplay-Light.ttf',
-          'assets/fonts/NeueHaasDisplay-Mediu.ttf',
-        ],
-      },
-    ],
-    [
       'expo-splash-screen',
       {
         ios: {
           backgroundColor: '#FFFFFF',
-          image: './assets/images/gesture-splash.png',
+          image: './assets/images/splash.png',
           resizeMode: 'cover',
           enableFullScreenImage_legacy: true,
         },
         android: {
           backgroundColor: '#FFFFFF',
-          image: './assets/images/gesture-icon.png',
+          image: './assets/images/icon.png',
           imageWidth: 200,
           resizeMode: 'contain',
         },
